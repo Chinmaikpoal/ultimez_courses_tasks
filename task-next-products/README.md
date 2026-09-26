@@ -3,7 +3,8 @@
 > **Course**: Next JS Tutorial for Beginners  
 > **Task**: Integrate the Products List API using Server-Side Props (`getServerSideProps`)  
 > **Repository**: [https://github.com/Chinmaikpoal/ultimez_courses_tasks](https://github.com/Chinmaikpoal/ultimez_courses_tasks)  
-> **Task Directory**: `task-next-products/`
+> **Task Directory**: `task-next-products/`  
+> **Live GitHub Pages URL**: [https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/)
 
 ---
 

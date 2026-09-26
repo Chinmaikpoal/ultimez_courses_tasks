@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ultimez Courses Tasks | Chinmai K Poal</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232563eb'/><text x='16' y='22' font-size='18' font-family='sans-serif' font-weight='bold' fill='%23ffffff' text-anchor='middle'>U</text></svg>" />
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --bg-page: #f8fafc;
+      --bg-surface: #ffffff;
+      --border-color: #e2e8f0;
+      --shadow: 0 4px 6px -1px rgba(0,0,0,0.08);
+      --radius: 12px;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-sans); background-color: var(--bg-page); color: var(--text-main); line-height: 1.6; }
+    .header { background: var(--bg-surface); border-bottom: 1px solid var(--border-color); padding: 1.25rem 2rem; box-shadow: var(--shadow); }
+    .header-content { max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .brand { font-size: 1.25rem; font-weight: 700; color: var(--text-main); }
+    .badge { background: #dbeafe; color: #1e40af; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+    .container { max-width: 1000px; margin: 3rem auto; padding: 0 1.5rem; }
+    .hero { text-align: center; margin-bottom: 3rem; }
+    .hero h1 { font-size: 2.25rem; font-weight: 800; margin-bottom: 0.75rem; }
+    .hero p { font-size: 1.125rem; color: var(--text-muted); max-width: 650px; margin: 0 auto; }
+    .tasks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+    .task-card { background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius); padding: 1.75rem; box-shadow: var(--shadow); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; }
+    .task-card:hover { transform: translateY(-4px); box-shadow: 0 12px 20px -5px rgba(0,0,0,0.1); }
+    .task-meta { font-size: 0.75rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .task-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem; }
+    .task-desc { font-size: 0.875rem; color: var(--text-muted); margin-bottom: 1.5rem; flex-grow: 1; }
+    .btn-group { display: flex; gap: 0.75rem; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.875rem; font-weight: 600; text-decoration: none; transition: 0.2s; }
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-outline { border: 1px solid var(--border-color); color: var(--text-main); }
+    .btn-outline:hover { background: #f1f5f9; }
+    footer { text-align: center; margin-top: 4rem; padding: 2rem 0; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="brand">Ultimez Training Tasks</div>
+      <span class="badge">Chinmai K Poal</span>
+    </div>
+  </header>
+  <main class="container">
+    <div class="hero">
+      <h1>Ultimez Course Tasks Hub</h1>
+      <p>A central showcase of all completed tasks and assignments for the Ultimez Frontend Developer Training Program.</p>
+    </div>
+    <div class="tasks-grid">
+      <div class="task-card">
+        <div class="task-meta">Next JS Tutorial for Beginners</div>
+        <h2 class="task-title">Products List API (Server-Side Props)</h2>
+        <p class="task-desc">Integrates Fake Store API products using Next.js Pages Router and <code>getServerSideProps</code>. Features responsive grid, ratings, prices, and error handling.</p>
+        <div class="btn-group">
+          <a href="./task-next-products/" class="btn btn-primary">Live Demo &rarr;</a>
+          <a href="https://github.com/Chinmaikpoal/ultimez_courses_tasks/tree/main/task-next-products" class="btn btn-outline" target="_blank">View Code</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Ultimez Training Repository &bull; <a href="https://github.com/Chinmaikpoal/ultimez_courses_tasks" target="_blank" style="color:var(--primary);">GitHub Repository</a></p>
+    </footer>
+  </main>
+</body>
+</html>

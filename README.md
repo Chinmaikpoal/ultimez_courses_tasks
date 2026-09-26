@@ -4,6 +4,13 @@ This repository contains all assignments, exercises, and tasks completed as part
 
 Each task is organized in its own self-contained folder to maintain modularity, independent dependency management, and clear progression.
 
+## 🌐 Live GitHub Pages Demo
+
+- **Course Tasks Hub**: [https://chinmaikpoal.github.io/ultimez_courses_tasks/](https://chinmaikpoal.github.io/ultimez_courses_tasks/)
+- **Task 1 (Products List SSR)**: [https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/)
+
+---
+
 ## 📂 Repository Structure
 
 ```
@@ -11,6 +18,10 @@ ultimez_courses_tasks/
 │
 ├── task-next-products/        # Course: Next JS Tutorial for Beginners
 │                              # Task: Products List API using Server-Side Props (getServerSideProps)
+│
+├── docs/                      # Live GitHub Pages Showcase
+│   ├── index.html             # Hub page
+│   └── task-next-products/    # Live preview page
 │
 ├── task-next-.../             # (Future Next.js tasks)
 ├── task-react-.../            # (Future React tasks)
@@ -23,9 +34,9 @@ ultimez_courses_tasks/
 
 ## 📋 Completed Tasks
 
-| # | Task Directory | Course | Topic / Description | Status |
-|---|----------------|--------|---------------------|--------|
-| 1 | [`task-next-products/`](./task-next-products) | Next JS Tutorial for Beginners | Integrate Products List API using `getServerSideProps` | ✅ Completed |
+| # | Task Directory | Course | Topic / Description | Live URL | Code | Status |
+|---|----------------|--------|---------------------|----------|------|--------|
+| 1 | [`task-next-products/`](./task-next-products) | Next JS Tutorial for Beginners | Integrate Products List API using `getServerSideProps` | [Live Demo](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/) | [Source Code](./task-next-products) | ✅ Completed |
 
 ---
 
