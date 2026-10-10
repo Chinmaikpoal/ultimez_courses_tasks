@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimez Add To Cart | Live Showcase (PHP &amp; MySQL Task)</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232563eb'/><text x='16' y='22' font-size='18' font-family='sans-serif' font-weight='bold' fill='%23ffffff' text-anchor='middle'>U</text></svg>">
+</head>
+<body>
+
+  <!-- Demo Notice Banner -->
+  <aside class="demo-banner">
+    <div class="demo-banner-content">
+      <div class="demo-banner-text">
+        <span class="demo-banner-badge">Task 2 Live Showcase</span>
+        <span>Interactive Frontend Demo &bull; Production PHP &amp; MySQL backend resides in <code>task-add-to-cart/</code></span>
+      </div>
+      <div class="demo-banner-links">
+        <a href="../index.html">&larr; Back to Tasks Hub</a>
+        <a href="https://github.com/Chinmaikpoal/ultimez_courses_tasks/tree/main/task-add-to-cart" target="_blank" rel="noopener noreferrer">View PHP &amp; SQL Source Code &rarr;</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-wrapper">
+        <div class="brand-logo">U</div>
+        <div>
+          <h1 class="brand-title">Ultimez Store</h1>
+          <p class="brand-subtitle">Internship Task 2 &bull; Add To Cart (PHP &amp; MySQL)</p>
+        </div>
+      </div>
+      <div class="header-badge">
+        <span class="dot"></span>
+        <span>Asynchronous Cart Active</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-wrapper">
+    <div class="content-grid">
+      
+      <!-- Left Column: Products Catalog -->
+      <section class="section-card">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Products Catalog</h2>
+            <p class="section-subtitle">Showing 8 official inventory items</p>
+          </div>
+        </div>
+
+        <div class="products-grid">
+          <!-- Product 1 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image1.jpeg" 
+                alt="Men Solid Orange" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Men Solid Orange">Men Solid Orange</h3>
+              <div class="product-price">Rs. 499.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="1"
+                aria-label="Add Men Solid Orange to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image2.jpeg" 
+                alt="Men Graphic Print" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Men Graphic Print">Men Graphic Print</h3>
+              <div class="product-price">Rs. 451.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="2"
+                aria-label="Add Men Graphic Print to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image3.jpeg" 
+                alt="Men Graphic Print" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Men Graphic Print">Men Graphic Print</h3>
+              <div class="product-price">Rs. 599.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="3"
+                aria-label="Add Men Graphic Print to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image4.jpeg" 
+                alt="Men Striped Polo" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Men Striped Polo">Men Striped Polo</h3>
+              <div class="product-price">Rs. 479.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="4"
+                aria-label="Add Men Striped Polo to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 5 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image5.jpeg" 
+                alt="Striped Black" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Striped Black">Striped Black</h3>
+              <div class="product-price">Rs. 349.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="5"
+                aria-label="Add Striped Black to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 6 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image6.jpeg" 
+                alt="Typography" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Typography">Typography</h3>
+              <div class="product-price">Rs. 600.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="6"
+                aria-label="Add Typography to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 7 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image7.jpeg" 
+                alt="Men Printed Hooded" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Men Printed Hooded">Men Printed Hooded</h3>
+              <div class="product-price">Rs. 334.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="7"
+                aria-label="Add Men Printed Hooded to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 8 -->
+          <article class="product-item">
+            <div class="product-img-box">
+              <img 
+                src="assets/images/image8.jpeg" 
+                alt="Embroidered Red Shirt" 
+                class="product-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="product-info">
+              <h3 class="product-name" title="Embroidered Red Shirt">Embroidered Red Shirt</h3>
+              <div class="product-price">Rs. 453.00</div>
+              <button 
+                type="button" 
+                class="btn-add" 
+                data-product-id="8"
+                aria-label="Add Embroidered Red Shirt to cart"
+              >
+                <span>&#43;</span> Add To Cart
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Right Column: Shopping Cart (Sticky) -->
+      <aside class="cart-column">
+        <section class="section-card">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">
+                <span>🛒</span> Shopping Cart
+              </h2>
+              <p class="section-subtitle">Real-time asynchronous updates</p>
+            </div>
+            <span class="cart-qty-badge" id="cartCountBadge">0 Items</span>
+          </div>
+
+          <!-- Cart Table Wrapper -->
+          <div class="cart-table-wrapper" id="cartTableWrapper" style="display:none;">
+            <table class="cart-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Qty</th>
+                  <th>Subtotal</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="cartTableBody">
+                <!-- Dynamically populated via app.js -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Empty State -->
+          <div class="cart-empty-view" id="cartEmptyView">
+            <div class="cart-empty-icon">🛒</div>
+            <h3 class="cart-empty-title">Your Cart is Empty</h3>
+            <p class="cart-empty-desc">Explore the catalog on the left and click "Add To Cart" to start shopping.</p>
+          </div>
+
+          <!-- Cart Footer -->
+          <div class="cart-footer" id="cartFooter" style="display:none;">
+            <div>
+              <span class="grand-total-label">Grand Total</span>
+              <div class="grand-total-value" id="grandTotalValue">Rs. 0.00</div>
+            </div>
+            <button type="button" class="btn-clear" id="clearCartBtn">
+              Clear Cart
+            </button>
+          </div>
+        </section>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- JavaScript Controller -->
+  <script src="app.js"></script>
+</body>
+</html>
