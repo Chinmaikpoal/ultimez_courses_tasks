@@ -9,6 +9,7 @@ Each task is organized in its own self-contained folder to maintain modularity, 
 - **Course Tasks Hub**: [https://chinmaikpoal.github.io/ultimez_courses_tasks/](https://chinmaikpoal.github.io/ultimez_courses_tasks/)
 - **Task 1 (Products List SSR)**: [https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/)
 - **Task 2 (Add To Cart PHP & MySQL)**: [https://chinmaikpoal.github.io/ultimez_courses_tasks/task-add-to-cart/](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-add-to-cart/)
+- **Task 3 (ARSHA Website Recreation)**: [https://chinmaikpoal.github.io/ultimez_courses_tasks/task-arsha-website/](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-arsha-website/)
 
 ---
 
@@ -19,7 +20,7 @@ ultimez_courses_tasks/
 │
 ├── task-next-products/        # Task 1: Products List API using Server-Side Props (Next.js Pages Router)
 │
-├── task-add-to-cart/          # Task 2: Add To Cart E-Commerce Cart
+├── task-add-to-cart/          # Task 2: Add To Cart E-Commerce Cart (PHP, MySQL & Fetch API)
 │   ├── api/cart.php           # Asynchronous REST dispatcher (add, remove, clear, get)
 │   ├── config/db.php          # Secure MySQL PDO connection
 │   ├── assets/                # Responsive CSS, Fetch API client, product images
@@ -27,10 +28,18 @@ ultimez_courses_tasks/
 │   ├── index.php              # Full PHP & MySQL session UI
 │   └── README.md              # Complete task documentation & XAMPP guide
 │
+├── task-arsha-website/        # Task 3: ARSHA Website Homepage Recreation
+│   ├── assets/img/            # High-res hero illustration & client logos
+│   ├── assets/css/style.css   # Custom responsive CSS matching Arsha design
+│   ├── assets/js/main.js      # Mobile nav drawer, dropdowns & video modal
+│   ├── index.html             # Semantic HTML5 homepage structure
+│   └── README.md              # Documentation and responsive design guide
+│
 ├── docs/                      # Live GitHub Pages Showcase
 │   ├── index.html             # Central Tasks Hub
 │   ├── task-next-products/    # Task 1 live preview
-│   └── task-add-to-cart/      # Task 2 interactive live preview
+│   ├── task-add-to-cart/      # Task 2 interactive live preview
+│   └── task-arsha-website/    # Task 3 live preview
 │
 ├── task-next-.../             # (Future Next.js tasks)
 ├── task-react-.../            # (Future React tasks)
@@ -47,6 +56,7 @@ ultimez_courses_tasks/
 |---|----------------|---------------|---------------------|----------|------|--------|
 | 1 | [`task-next-products/`](./task-next-products) | Next JS Tutorial for Beginners | Integrate Products List API using `getServerSideProps` | [Live Demo](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-next-products/) | [Source Code](./task-next-products) | ✅ Completed |
 | 2 | [`task-add-to-cart/`](./task-add-to-cart) | PHP & MySQL Full-Stack | Asynchronous Add To Cart with PDO, session management & real-time totals | [Live Demo](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-add-to-cart/) | [Source Code](./task-add-to-cart) | ✅ Completed |
+| 3 | [`task-arsha-website/`](./task-arsha-website) | HTML5, CSS3 & Bootstrap 5 | ARSHA corporate homepage recreation (Navbar, Hero, Animation & Clients strip) | [Live Demo](https://chinmaikpoal.github.io/ultimez_courses_tasks/task-arsha-website/) | [Source Code](./task-arsha-website) | ✅ Completed |
 
 ---
 
